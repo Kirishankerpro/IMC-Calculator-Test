@@ -1,0 +1,33 @@
+.header {
+  background-color: #66c08a;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  border-bottom: 3px solid green;
+}
+
+.header-items {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-nav {
+    ul {
+      display: flex;
+      li {
+        list-style: none;
+        font-weight: 800;
+      }
+      a:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+  }
+}

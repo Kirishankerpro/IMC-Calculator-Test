@@ -1,0 +1,16 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+
+.login-items {
+  background-color: lightyellow;
+  height: 65vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

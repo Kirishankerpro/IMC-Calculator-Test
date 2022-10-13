@@ -1,0 +1,16 @@
+.other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+
+.other-items {
+  background-color: lightsalmon;
+  height: 65vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}

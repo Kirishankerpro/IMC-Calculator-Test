@@ -1,0 +1,96 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 83vh;
+}
+
+.main-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 73vh;
+  color: black;
+  border-radius: 8px;
+  background-color: #ebf9ed;
+  box-shadow: -1px 0px 29px 11px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: -1px 0px 29px 11px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 0px 29px 11px rgba(0, 0, 0, 0.22);
+}
+
+.clue {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+}
+
+.clue-right {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.clue-left {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-calculator > input {
+  border-radius: 5px;
+  border-color: #66c08a;
+  padding: 5px;
+  width: 300px;
+  outline: none;
+  text-indent: 5px;
+}
+
+.form-calculator > input:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.main-items-header {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-items-header > p {
+  text-align: start;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.done {
+  color: green;
+}
+
+#submit {
+  margin-top: 10px;
+  width: 150px;
+  cursor: pointer;
+  background-color: #66c08a;
+  color: white;
+  height: 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+#submit:hover {
+  border-color: red;
+}
